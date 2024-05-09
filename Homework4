@@ -1,0 +1,8 @@
+immutable_var= 22, 33, 44, 55, (1, 2, 3), 'apple'
+print (immutable_var)
+# 3 Кортежи в Python являются неизменяемыми, что означает, что их элементы нельзя изменить. При попытке изменить элемент кортежа возникнет ошибка TypeError.
+mutable_list= [1, 2.7, "Hello", [1, 2, 3]]
+print(mutable_list)
+mutable_list[0] = 10
+mutable_list[3] = [4, 5, 6]
+print(mutable_list)
